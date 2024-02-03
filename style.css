@@ -45,10 +45,15 @@ nav{
   display: flex;
   font-size: 2rem;
 }
+.cta-text h2{
+  overflow: hidden;
+}
 
 .cta-text span{
   padding: 0 0.4rem;
-   text-shadow:rgba(0, 0, 0, 0.4)  0px 0px 20px; /* x y blur */
+  text-shadow:rgba(0, 0, 0, 0.4)  0px 0px 20px; /* x y blur */
+  display: block;
+  
 }
 
 .cta-btn{
