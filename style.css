@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 0;
 }
 
 body {
@@ -16,8 +17,9 @@ nav{
 }
 
 .logo{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(33, 33, 33);
+  overflow: hidden;
 }
 
 .hero-section{
@@ -29,6 +31,7 @@ nav{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 .cta{
   position: absolute;
